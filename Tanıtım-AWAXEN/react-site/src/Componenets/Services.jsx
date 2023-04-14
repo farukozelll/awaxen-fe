@@ -9,7 +9,7 @@ const Services = () => {
 
         <div className="services-container">
             <div className="services-box">
-                <i className='bx bx-code-alt'></i>
+                <i className='bx bx-camera'></i>
                 <h3>Image processing</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum at sed labore nesciunt. Quisquam sunt 
                     rerum, culpa obcaecati modi animi sint magni!
@@ -25,7 +25,7 @@ const Services = () => {
                 <a href="#" className="btn">Read More</a>
             </div>
             <div className="services-box">
-                <i className='bx bx-bar-chart-alt' ></i>
+                <i className='bx bxs-analyse'></i>
                 <h3>Holder Gripper</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum at sed labore nesciunt. Quisquam sunt 
                     rerum, culpa obcaecati modi animi sint magni!

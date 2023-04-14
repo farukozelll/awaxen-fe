@@ -12,9 +12,9 @@ const About = () => {
         <div className="about-content">
             <h2 className="heading"> About <span>AWAXEN</span></h2>
             <h3>We produce autonomous solutions for greenhouses!</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto alias aliquid veniam id placeat 
-                repellendus incidunt eos eligendi iste et, optio, omnis rem repudiandae corporis voluptatem expedita 
-                sint voluptas, maxime dolor. Labore atque delectus eum voluptatibus blanditiis aut eius voluptate!
+            <p>The social demography of the world's population puts a huge strain on the global agriculture industry.
+                 Our project aims to solve this problem by developing autonomous and intelligent robots,
+                  which aim to make the human workforce more productive, domestically and nationally.
             </p>
             <a href="#" className="btn">Read More</a>
         </div>

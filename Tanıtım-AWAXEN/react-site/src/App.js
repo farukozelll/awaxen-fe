@@ -1,4 +1,4 @@
-import 'C:/Users/viati/Desktop/Tanıtım AWAXEN/react site/src/Componenets/style.css';
+import 'C:/Users/viati/Documents/GitHub/awaxen-fe/Tanıtım-AWAXEN/react-site/src/Componenets/style.css';
 import Navbar from './Componenets/Navbar';
 import Home from './Componenets/Home';
 import About from './Componenets/About';
