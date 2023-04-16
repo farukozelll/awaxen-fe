@@ -2,6 +2,11 @@ import React from "react";
 import './style.css';
 import 'boxicons';
 import home from './home.png';
+import { FaLinkedin, FaInstagram, FaTwitter, FaFacebook, FaCamera } from 'react-icons/fa';
+import { GiRobotGrab } from 'react-icons/gi';
+import { HiOutlineCamera, HiStatusOnline } from 'react-icons/hi';
+import { TbDna } from 'react-icons/tb';
+
 
 const Home = () => {
     return (
@@ -12,10 +17,10 @@ const Home = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis error possimus amet nam, non in maxime nihil.</p>
 
                         <div className="social-media">
-                        <a href="#"><i className='bx bxl-facebook'></i></a>
-                            <a href="#"><i className='bx bxl-twitter' ></i></a>
-                            <a href="#"><i className='bx bxl-instagram' ></i></a>
-                            <a href="https://www.linkedin.com/company/awaxen/"><i className='bx bxl-linkedin' ></i></a>
+                        <a href="#"><FaFacebook/></a>
+                            <a href="#"><FaTwitter/></a>
+                            <a href="#"><FaInstagram/></a>
+                            <a href="https://www.linkedin.com/company/awaxen/"><FaLinkedin/></a>
                         </div>
 
                         <a href="#" className="btn">Download DataSheet</a>
@@ -24,19 +29,19 @@ const Home = () => {
                     <div className="profession-container">
                         <div className="profession-box">
                             <div className="profession">
-                                <i className='bx bx-code-alt'></i>
+                                <HiStatusOnline size={30}/>
                                 <h3>autonomous driving</h3>
                             </div>
                             <div className="profession">
-                                <i className='bx bx-camera' ></i>
+                                <HiOutlineCamera size={30}/>
                                 <h3>Image processing</h3>
                             </div>
                             <div className="profession">
-                                <i className='bx bx-palette' ></i>
+                                <GiRobotGrab size={30}/>
                                 <h3>Holder Gripper</h3>
                             </div>
                             <div className="profession">
-                                <i className='bx bx-video-recording' ></i>
+                                <TbDna size={30}/>
                                 <h3>Bilemedim</h3>
                             </div>
 
