@@ -9,6 +9,7 @@ import Portfolio from './Components/Portfolio';
 import Testimonial from './Components/Testimonial';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import Farmer from './Farmer/Farmer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <body>
       <Navbar></Navbar>
       <Home></Home>
+      <Farmer></Farmer>
       <About></About>
       <Services></Services>
       <Portfolio></Portfolio>

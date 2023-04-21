@@ -14,6 +14,7 @@ const Navbar = () => {
                     <a href="#services" >Services</a>
                     <a href="#portfolio" >Portfolio</a>
                     <a href="#contact" >Contact</a>
+                    <a href="#farmer" >Dashboard</a>
                 </nav>
 
                 <div className='bx bx-moon' id="darkMode-icon"></div>
