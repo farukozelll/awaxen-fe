@@ -25,7 +25,7 @@ function Farmer() {
             <thead>
                 <tr>
                 <th>Farmer ID</th>
-                <th>Ad Soyad</th>
+                <th>Ad-Soyad</th>
                 <th>Adres</th>
                 <th>Telefon</th>
                 <th>Mail</th>
