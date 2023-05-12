@@ -17,7 +17,7 @@ const Testimonial = () => {
                 <div className="testimonial-content swiper-wrapper">
                     <div className="testimonial-slide swiper-slide">
                         <img src={testimonial_1}/>
-                        <h3>Jakson Levi</h3>
+                        <h3>Nebi Berhan Taş</h3>
                         <p>Seralarda meyve toplayan robotlar, tarım endüstrisinde devrim yaratıyor. 
                             Bu yenilikçi teknoloji, meyve hasadını kolaylaştırırken, 
                             verimliliği artırıyor ve iş gücü maliyetlerini düşürüyor. 
@@ -29,7 +29,7 @@ const Testimonial = () => {
                     </div>
                     <div className="testimonial-slide swiper-slide">
                         <img src={testimonial_2}/>
-                        <h3>Jakson Leva</h3>
+                        <h3>Ahmet Soymaz</h3>
                         <p>Meyve toplama robotları, tarım sektörünün geleceğinde büyük bir potansiyele sahip. 
                             İleri teknolojiye sahip bu robotlar, meyve üretiminde kaliteyi artırırken, 
                             çiftçilere daha sürdürülebilir bir tarım modeli sunar. Bu sayede, gelecek nesillerin 
@@ -39,7 +39,7 @@ const Testimonial = () => {
                     </div>
                     <div className="testimonial-slide swiper-slide">
                         <img src={testimonial_3}/>
-                        <h3>Jakson Levo</h3>
+                        <h3>Yunus İnci</h3>
                         <p>Bu tür robotlar, tarım sektöründe büyük bir devrim yaratıyor. Özellikle meyve hasatı sürecindeki 
                             verimliliği arttırarak, işçi maliyetlerini azaltıyor ve aynı zamanda insan sağlığına zararlı olabilen 
                             kimyasal ilaçların kullanımını da azaltıyorlar. Aynı zamanda bu robotlar, yüksek hassasiyetle 
