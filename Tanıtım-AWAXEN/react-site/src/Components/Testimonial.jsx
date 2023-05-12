@@ -2,7 +2,6 @@ import React from "react";
 import './style.css';
 import 'boxicons';
 import 'swiper/css';
-import home from './img/home.png';
 import testimonial_1 from './img/testimonial-1.jpg';
 import testimonial_2 from './img/testimonial-2.jpg';
 import testimonial_3 from './img/testimonial-3.jpg';
