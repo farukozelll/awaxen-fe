@@ -12,8 +12,10 @@ const Navbar = () => {
                     <a href="#home"  className="active">Home</a>
                     <a href="#about" >About</a>
                     <a href="#services" >Services</a>
-                    <a href="#portfolio" >Portfolio</a>
+                    <a href="#farmer" >Dashboard</a>
+                    <a href="#portfolio" >Product</a>
                     <a href="#contact" >Contact</a>
+
                 </nav>
 
                 <div className='bx bx-moon' id="darkMode-icon"></div>

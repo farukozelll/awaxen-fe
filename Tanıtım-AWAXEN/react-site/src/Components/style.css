@@ -41,7 +41,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 7%;
+    padding: 2rem 3%;
     background-color: transparent;
     display : flex;
     align-items: center;
@@ -61,7 +61,7 @@ body {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 30px;
     color: var(--main-color);
     font-weight: 600;
     cursor: default;
@@ -222,7 +222,7 @@ section {
 }
 
 .home .profession-box .profession:nth-child(1){ /*automus driving*/
-    transform: rotate(-90deg) translate(-50px, -10px);
+    transform: rotate(-90deg) translate(-5px, -10px);
 }
 
 .home .profession-box .profession:nth-child(1){
@@ -230,15 +230,15 @@ section {
 }
 
 .home .profession-box .profession:nth-child(2){ /*Image processing*/
-    transform: rotate(0deg) translate(-35px, -2px);
+    transform: rotate(0deg) translate(-15px, -2px);
 }
 
 .home .profession-box .profession:nth-child(3){ /*Holder Gripper*/
-    transform: rotate(90deg) translate(-5px, -10px);
+    transform: rotate(90deg) translate(-27px, -10px);
 }
 
 .home .profession-box .profession:nth-child(4){ /*Bilemedim*/
-    transform: rotate(180deg) translate(30px, 0px);
+    transform: rotate(180deg) translate(-15px, 0px);
 }
 
 .profession h3 {
@@ -262,7 +262,7 @@ section {
     height: 0;
     border-top: 384px solid var(--main-color);
     border-bottom: 384px solid var(--main-color);
-    border-right: 384px solid var(--main-color);
+    border-right: 424px solid var(--main-color);
     border-left: 384px solid transparent;
 }
 
@@ -578,6 +578,35 @@ span {
     font-size: 2.4rem;
     color: #333;
 }
+.farmer-table {
+    border-collapse: collapse;
+    margin: 2rem auto;
+    font-size: 1.6rem;
+    text-align: center;
+    display: none;
+  }
+  
+  .farmer-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    padding: 1rem;
+  }
+  
+  .farmer-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .farmer-table tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+
+  .farmer .heading{
+    display: none;
+  }
+
+
+  
 
 /* KEYFRAMES ANIMATION */
 @keyframes professionRotate{
@@ -611,6 +640,26 @@ span {
     .home .profession-container .profession-box {
         right: -12rem;
         height: 85.8rem;
+    }
+
+    .home .profession-box .profession:nth-child(1){ /*automus driving*/
+        transform: rotate(-90deg) translate(10px, 0px);
+    }
+    
+    .home .profession-box .profession:nth-child(1){
+        margin-right: 0;
+    }
+    
+    .home .profession-box .profession:nth-child(2){ /*Image processing*/
+        transform: rotate(0deg) translate(0px, 0px);
+    }
+    
+    .home .profession-box .profession:nth-child(3){ /*Holder Gripper*/
+        transform: rotate(90deg) translate(-10px, 0px);
+    }
+    
+    .home .profession-box .profession:nth-child(4){ /*Bilemedim*/
+        transform: rotate(180deg) translate(5px, 0px);
     }
 
     .home .profession-container .overlay {
@@ -768,7 +817,7 @@ span {
     }
 
     .home .profession-box .profession:nth-child(1){
-        transform: rotate(-90deg) translate(-140px, -180px);
+        transform: rotate(-90deg) translate(-110px, -225px);
     }
 
     .home .profession-box .profession:nth-child(1){
@@ -780,11 +829,11 @@ span {
     }
 
     .home .profession-box .profession:nth-child(3){
-        transform: rotate(90deg) translate(-115px, -450px);
+        transform: rotate(90deg) translate(-125px, -465px);
     }
 
     .home .profession-box .profession:nth-child(4){
-        transform: rotate(180deg) translate(-160px, -335px);
+        transform: rotate(180deg) translate(-235px, -335px);
     }
 
     .home .profession-box .circle {
@@ -865,19 +914,26 @@ span {
     }
 
     .home .profession-box .profession:nth-child(1) {
-        transform: rotate(-90deg) translate(-110px, -220px);
+        transform: rotate(-90deg) translate(-113px, -190px);
     }
 
     .home .profession-box .profession:nth-child(2) {
-        transform: rotate(0deg) translate(5px, -335px);
+        transform: rotate(0deg) translate(5px, -300px);
     }
 
     .home .profession-box .profession:nth-child(3) {
-        transform: rotate(90deg) translate(-105px, -440px);
+        transform: rotate(90deg) translate(-130px, -425px);
     }
 
     .home .profession-box .profession:nth-child(4) {
-        transform: rotate(180deg) translate(-210px, -335px);
+        transform: rotate(180deg) translate(-240px, -295px);
+    }
+
+    .home .profession-box .circle {
+        position : fixed;
+        width: 600px;
+        height: 600px;
+        z-index: -1;
     }
 
     .home-content .social-media {
@@ -887,6 +943,13 @@ span {
     .contact form .input-box input {
         width: 100%;
 
+    }
+    .footer {
+        flex-direction: column-reverse;
+    }
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
     }
 }
 

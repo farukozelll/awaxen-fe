@@ -1,8 +1,8 @@
 import React from "react";
 import './style.css';
 import 'boxicons';
-import home from './home.png';
-import { FaLinkedin, FaInstagram, FaTwitter, FaFacebook, FaCamera } from 'react-icons/fa';
+import home from './img/home.png';
+import { FaLinkedin, FaInstagram, FaTwitter, FaFacebook,} from 'react-icons/fa';
 import { GiRobotGrab } from 'react-icons/gi';
 import { HiOutlineCamera, HiStatusOnline } from 'react-icons/hi';
 import { TbDna } from 'react-icons/tb';
@@ -14,7 +14,9 @@ const Home = () => {
                     <div className="home-content">
                         <h3>Hi, We are</h3>
                         <h1>AWAXEN</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis error possimus amet nam, non in maxime nihil.</p>
+                        <p>Geleceğin tarım teknolojilerini şekillendiriyoruz. 
+                            Gelişmiş otomasyon çözümleriyle, tarım sektöründe verimliliği artırıyor, 
+                            sürdürülebilirlik ve inovasyonu destekliyoruz.</p>
 
                         <div className="social-media">
                         <a href="#"><FaFacebook/></a>
@@ -30,19 +32,19 @@ const Home = () => {
                         <div className="profession-box">
                             <div className="profession">
                                 <HiStatusOnline size={30}/>
-                                <h3>autonomous driving</h3>
+                                <h3>Otonom Sürüş</h3>
                             </div>
                             <div className="profession">
                                 <HiOutlineCamera size={30}/>
-                                <h3>Image processing</h3>
+                                <h3>Görüntü İşleme</h3>
                             </div>
                             <div className="profession">
                                 <GiRobotGrab size={30}/>
-                                <h3>Holder Gripper</h3>
+                                <h3>Tututcu Kavrama</h3>
                             </div>
                             <div className="profession">
                                 <TbDna size={30}/>
-                                <h3>Bilemedim</h3>
+                                <h3>Dron Teknolojisi</h3>
                             </div>
 
                             <div className="circle"></div>
