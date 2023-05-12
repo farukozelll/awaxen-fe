@@ -3,6 +3,9 @@ import './style.css';
 import 'boxicons';
 import 'swiper/css';
 import home from './img/home.png';
+import testimonial_1 from './img/testimonial-1.jpg';
+import testimonial_2 from './img/testimonial-2.jpg';
+import testimonial_3 from './img/testimonial-3.jpg';
 
 const Testimonial = () => {
     return (
@@ -13,7 +16,7 @@ const Testimonial = () => {
             <div className="testimonial-box mySwiper">
                 <div className="testimonial-content swiper-wrapper">
                     <div className="testimonial-slide swiper-slide">
-                        <img src={home}/>
+                        <img src={testimonial_1}/>
                         <h3>Jakson Levi</h3>
                         <p>Seralarda meyve toplayan robotlar, tarım endüstrisinde devrim yaratıyor. 
                             Bu yenilikçi teknoloji, meyve hasadını kolaylaştırırken, 
@@ -25,7 +28,7 @@ const Testimonial = () => {
                             tasarrufu sağlarken, meyve kalitesini de korumalarına yardımcı oluyor.</p>
                     </div>
                     <div className="testimonial-slide swiper-slide">
-                        <img src={home}/>
+                        <img src={testimonial_2}/>
                         <h3>Jakson Leva</h3>
                         <p>Meyve toplama robotları, tarım sektörünün geleceğinde büyük bir potansiyele sahip. 
                             İleri teknolojiye sahip bu robotlar, meyve üretiminde kaliteyi artırırken, 
@@ -35,7 +38,7 @@ const Testimonial = () => {
                             olacak ve geleceğin tarımını şekillendirecektir.</p>
                     </div>
                     <div className="testimonial-slide swiper-slide">
-                        <img src={home}/>
+                        <img src={testimonial_3}/>
                         <h3>Jakson Levo</h3>
                         <p>Bu tür robotlar, tarım sektöründe büyük bir devrim yaratıyor. Özellikle meyve hasatı sürecindeki 
                             verimliliği arttırarak, işçi maliyetlerini azaltıyor ve aynı zamanda insan sağlığına zararlı olabilen 
