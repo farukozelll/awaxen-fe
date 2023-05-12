@@ -9,12 +9,12 @@ const Navbar = () => {
                 <a href="#" className="logo">AWAXEN</a>
 
                 <nav className="navbar">
-                    <a href="#home"  className="active">Home</a>
-                    <a href="#about" >About</a>
-                    <a href="#services" >Services</a>
-                    <a href="#farmer" >Dashboard</a>
-                    <a href="#portfolio" >Product</a>
-                    <a href="#contact" >Contact</a>
+                    <a href="#home"  className="active">Anasayfa</a>
+                    <a href="#about" >Hakkımızda</a>
+                    <a href="#services" >Servisler</a>
+                    <a href="#farmer" >Panel</a>
+                    <a href="#portfolio" >Ürünler</a>
+                    <a href="#contact" >İletişim</a>
 
                 </nav>
 
