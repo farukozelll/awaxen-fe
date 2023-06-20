@@ -81,7 +81,7 @@ const Home = () => {
                 Projemiz, insan iş gücünü daha verimli hale getirmeyi hedefleyen otonom ve akıllı robotlar 
                 geliştirerek bu sorunu çözmeyi amaçlıyor.
             </p>
-            <a href="#" className="btn">Daha Fazla Oku</a>
+            <a href="/about" className="btn">Daha Fazla Oku</a>
         </div>
         </section>
         <section className="services" id="services">
@@ -95,7 +95,7 @@ const Home = () => {
                     Renk, boyut, olgunluk gibi kriterleri değerlendirerek hangi meyvenin toplanması gerektiğini belirler. 
                     Bu sayede, yanlış meyve toplama oranını minimuma indirir.
                 </p>
-                <a href="#" className="btn">Daha Fazla Oku</a>
+                <a href="/services" className="btn">Daha Fazla Oku</a>
             </div>
             <div className="services-box">
                 <HiStatusOnline size={30}/>
@@ -104,7 +104,7 @@ const Home = () => {
                     Engelleri algılar ve onlardan kaçınır, böylece düzgün bir sürüş sağlar. 
                     Diğer robotlar ve eşyalarla etkileşime geçerek çarpışma riskini minimize eder.
                 </p>
-                <a href="#" className="btn">Daha Fazla Oku</a>
+                <a href="/services" className="btn">Daha Fazla Oku</a>
             </div>
             <div className="services-box">
                 <GiRobotGrab size={30}/>
@@ -113,7 +113,7 @@ const Home = () => {
                     meyvelere zarar vermeden toplama işlemini gerçekleştirir. Özel tutma mekanizması sayesinde meyvenin 
                     sıkışmasını veya ezilmesini önler, meyve kalitesini korur.
                 </p>
-                <a href="#" className="btn">Daha Fazla Oku</a>
+                <a href="/services" className="btn">Daha Fazla Oku</a>
             </div>
         </div>
     </section>
@@ -125,7 +125,7 @@ const Home = () => {
                 <div className="portfolio-layer">
                     <h4>Çoklu Depolama</h4>
                     <p>Robotumuz, entegre edilmiş ekstra kasalar sayesinde daha fazla meyve depolama kapasitesine sahiptir.</p>
-                    <a href="#"><i className='bx bx-link-external' ></i></a>
+                    <a href="/portfolio"><i className='bx bx-link-external' ></i></a>
                 </div>
             </div>
             <div className="portfolio-box">
@@ -135,7 +135,7 @@ const Home = () => {
                     <p>İki adet kolun senkronize hareketi, meyveleri daha hızlı bir şekilde toplama imkanı sağlar.
                         Böylece, iş verimliliğinizi artırır ve hasat süresini kısaltır.
                     </p>
-                    <a href="#"><i className='bx bx-link-external' ></i></a>
+                    <a href="/portfolio"><i className='bx bx-link-external' ></i></a>
                 </div>
             </div>
             <div className="portfolio-box">
@@ -144,7 +144,7 @@ const Home = () => {
                     <h4>Kaldırma Sistemi</h4>
                     <p>Yenilikçi meyve toplama robotumuz, kendi kasasını boşaltma özelliğiyle 
                         seralarınızda verimlilik ve kolaylık sağlıyor.</p>
-                    <a href="#"><i className='bx bx-link-external' ></i></a>
+                    <a href="/portfolio"><i className='bx bx-link-external' ></i></a>
                 </div>
             </div>
             <div className="portfolio-box">
@@ -153,7 +153,7 @@ const Home = () => {
                     <h4>Dron Teknolojisi</h4>
                     <p>Drone robotumuz, gelişmiş algılama ve görüntü işleme sistemleriyle donatılmıştır. 
                         Meyveleri hassas bir şekilde algılar ve doğru toplama noktalarını belirler.</p>
-                    <a href="#"><i className='bx bx-link-external' ></i></a>
+                    <a href="/portfolio"><i className='bx bx-link-external' ></i></a>
                 </div>
             </div>
             <div className="portfolio-box">
@@ -162,7 +162,7 @@ const Home = () => {
                     <h4>İlaçlama Teknolojisi</h4>
                     <p>Robotlarımız, programlanmış ilaçlama miktarlarını hassas bir şekilde uygular ve doğru miktarda ilacın 
                         uygulanmasını sağlar.</p>
-                    <a href="#"><i className='bx bx-link-external' ></i></a>
+                    <a href="/portfolio"><i className='bx bx-link-external' ></i></a>
                 </div>
             </div>
             <div className="portfolio-box">
@@ -171,7 +171,7 @@ const Home = () => {
                     <h4>Otonom Sürüş Sistemi</h4>
                     <p>Robotlarımız, seranın iç yapısını hızlı bir şekilde haritalayarak meyve ağaçlarını, 
                         koridorları ve engelleri tespit eder.</p>
-                    <a href="#"><i className='bx bx-link-external' ></i></a>
+                    <a href="/portfolio"><i className='bx bx-link-external' ></i></a>
                 </div>
             </div>
         </div>
