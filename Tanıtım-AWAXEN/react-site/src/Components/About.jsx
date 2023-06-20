@@ -2,6 +2,7 @@ import React from "react";
 import './style.css';
 import 'boxicons';
 import img from './img/home.png';
+import './script.js';
 
 const About = () => {
     return (

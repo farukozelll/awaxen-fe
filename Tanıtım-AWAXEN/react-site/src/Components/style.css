@@ -47,9 +47,6 @@ body {
     align-items: center;
     z-index: 100;
     transition: .5s;
-}
-
-.header.sticky {
     background: var(--bg-color);
     box-shadow: 0 .1rem 1rem var(--shadow-color);
 }
@@ -72,16 +69,12 @@ body {
     position: relative;
     display: inline-block;
     font-size: 1.7rem;
-    color: var(--white-color);
+    color: var(--text-color);
     font-weight: 500;
     margin-right: 3.5rem;
 }
 
-.header.sticky .navbar a {
-    color: var(--text-color);
-}
-
-.header.sticky .navbar a.active {
+.header .navbar a.active {
     color: var(--main-color);
 }
 
@@ -105,7 +98,7 @@ body {
     display: flex;
     margin-top: 1px;
     cursor: pointer;
-    color: var(--white-color);
+    color: var(--text-color);
 }
 
 .header.sticky #darkMode-icon {
