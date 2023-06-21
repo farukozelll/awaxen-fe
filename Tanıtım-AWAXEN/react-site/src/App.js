@@ -4,6 +4,7 @@ import About from './Components/About';
 import Services from './Components/Services';
 import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 import {React} from "react";
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import './Components/Style/home_style.css';
@@ -43,6 +44,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer></Footer>
     </body>
   </html>
   </BrowserRouter>

@@ -18,7 +18,7 @@ const About = () => {
                 <Stage environment="city" intensity={0.6}>
                 <Logo/>
                 </Stage>
-                <OrbitControls enableZoom={false}></OrbitControls>
+                <OrbitControls enableZoom={false} autoRotate={true}></OrbitControls>
             </Canvas>
         </div>
         </div>
@@ -30,6 +30,27 @@ const About = () => {
             <p>Dünya nüfusunun sosyal demografisi, küresel tarım endüstrisine büyük bir yük getiriyor. 
                 Projemiz, insan iş gücünü daha verimli hale getirmeyi hedefleyen otonom ve akıllı robotlar 
                 geliştirerek bu sorunu çözmeyi amaçlıyor.
+            </p>
+            <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Vitae iusto sed similique nam fuga aspernatur enim iure at facere autem. 
+                Minus minima a odio et inventore dolore nesciunt provident sit nemo quo sapiente ea culpa mollitia, 
+                nihil ab sequi voluptatem odit quisquam quas. Vero molestias suscipit praesentium in nisi voluptate, 
+                quisquam sed. Sed exercitationem dolores officiis doloribus perferendis saepe cum?
+            </p>
+            <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Vitae iusto sed similique nam fuga aspernatur enim iure at facere autem. 
+                Minus minima a odio et inventore dolore nesciunt provident sit nemo quo sapiente ea culpa mollitia, 
+                nihil ab sequi voluptatem odit quisquam quas. Vero molestias suscipit praesentium in nisi voluptate, 
+                quisquam sed. Sed exercitationem dolores officiis doloribus perferendis saepe cum?
+            </p>
+            <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Vitae iusto sed similique nam fuga aspernatur enim iure at facere autem. 
+                Minus minima a odio et inventore dolore nesciunt provident sit nemo quo sapiente ea culpa mollitia, 
+                nihil ab sequi voluptatem odit quisquam quas. Vero molestias suscipit praesentium in nisi voluptate, 
+                quisquam sed. Sed exercitationem dolores officiis doloribus perferendis saepe cum?
             </p>
         </div>
         <h2 className="heading">Değerlerimiz </h2>

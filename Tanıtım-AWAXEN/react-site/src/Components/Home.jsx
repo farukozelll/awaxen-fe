@@ -238,15 +238,6 @@ const Home = () => {
                 <input type="submit" value="Mesaj Gönder" className="btn"/>
             </form>
         </section>
-        <footer className="footer">
-            <div className="footer-text">
-                <p>Telif Hakkı &copy; 2023 AWAXEN tarafından | Her Hakkı Saklıdır</p>
-            </div>
-
-            <div className="footer-iconTop">
-                <a href="#home"><i className='bx bx-up-arrow-alt'></i></a>
-            </div>
-        </footer>
                 </div>
                 
     )
