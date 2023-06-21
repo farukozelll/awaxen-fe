@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css';
+import './Style/style.css';
 import 'boxicons';
 import './script.js';
 

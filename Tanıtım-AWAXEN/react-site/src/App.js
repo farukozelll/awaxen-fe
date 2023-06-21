@@ -1,5 +1,4 @@
 import './App.css';
-import './Components/style.css';
 import Home from './Components/Home';
 import About from './Components/About';
 import Services from './Components/Services';
@@ -7,7 +6,8 @@ import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
 import {React} from "react";
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import './Components/style.css';
+import './Components/Style/home_style.css';
+import './Components/Style/about_style.css';
 import 'boxicons';
 import './Components/script.js';
 

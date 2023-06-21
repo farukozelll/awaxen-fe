@@ -1,5 +1,6 @@
 import React from "react";
-import './style.css';
+import './Style/style.css';
+import './Style/home_style.css';
 import 'boxicons';
 import { HiOutlineCamera, HiStatusOnline } from "react-icons/hi";
 import { GiRobotGrab } from "react-icons/gi";

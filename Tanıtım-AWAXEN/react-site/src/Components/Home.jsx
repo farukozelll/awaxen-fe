@@ -1,5 +1,6 @@
 import React from "react";
-import './style.css';
+import './Style/style.css';
+import './Style/home_style.css';
 import 'boxicons';
 import home from './img/home.png';
 import { FaLinkedin, FaInstagram, FaTwitter, FaFacebook,} from 'react-icons/fa';

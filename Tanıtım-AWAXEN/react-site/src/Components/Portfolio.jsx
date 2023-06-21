@@ -1,5 +1,6 @@
 import React from "react";
-import './style.css';
+import './Style/style.css';
+import './Style/home_style.css';
 import 'boxicons';
 import portfolio1 from './img/portfolio1.png';
 import portfolio2 from './img/portfolio2.png';
