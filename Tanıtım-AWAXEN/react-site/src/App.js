@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import './Components/Style/home_style.css';
 import './Components/Style/about_style.css';
 import 'boxicons';
-import './Components/script.js';
+import './Components/Scripts/script.js';
 
 function App() {
   return (

@@ -137,9 +137,9 @@
     flex-direction: column;
 }
 
-.about-box img {
-    width: 100%;
-    transition: .5s ease;
+.about-img img {
+    width: 70vw;
+    margin-top: -2rem;
 }
 
 .about-box:hover img {
